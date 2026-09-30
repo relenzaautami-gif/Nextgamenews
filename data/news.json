@@ -1,0 +1,49 @@
+{
+  "articles": [
+    {
+      "id": "001",
+      "title": "Berita Gaming Terbaru",
+      "category": "Gaming",
+      "description": "Informasi terbaru dari dunia gaming.",
+      "source": "Next Game News",
+      "url": "#",
+      "published_at": "2026-09-30T10:00:00+07:00"
+    },
+    {
+      "id": "002",
+      "title": "Update Terbaru Esports Hari Ini",
+      "category": "Esports",
+      "description": "Informasi terbaru mengenai pertandingan dan perkembangan esports.",
+      "source": "Next Game News",
+      "url": "#",
+      "published_at": "2026-09-30T10:15:00+07:00"
+    },
+    {
+      "id": "003",
+      "title": "Game Baru Menarik Perhatian Pemain PC",
+      "category": "PC Gaming",
+      "description": "Game terbaru mulai menjadi perhatian komunitas PC gaming.",
+      "source": "Next Game News",
+      "url": "#",
+      "published_at": "2026-09-30T10:30:00+07:00"
+    },
+    {
+      "id": "004",
+      "title": "Update Terbaru Mobile Gaming",
+      "category": "Mobile",
+      "description": "Berita dan update terbaru dari dunia mobile gaming.",
+      "source": "Next Game News",
+      "url": "#",
+      "published_at": "2026-09-30T10:45:00+07:00"
+    },
+    {
+      "id": "005",
+      "title": "Jadwal Pertandingan Esports Terbaru",
+      "category": "Esports",
+      "description": "Lihat jadwal pertandingan esports yang akan berlangsung.",
+      "source": "Next Game News",
+      "url": "#",
+      "published_at": "2026-09-30T11:00:00+07:00"
+    }
+  ]
+}
