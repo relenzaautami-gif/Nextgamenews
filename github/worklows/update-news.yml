@@ -25,9 +25,11 @@ jobs:
 
       - name: Update news
         run: |
-          echo "News collector akan dijalankan di sini."
-          echo "Waktu update:"
-          date
+        node scripts/news-collector.js
+  
+   
+        
+          
 
       - name: Commit changes
         run: |
