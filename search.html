@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Search - Next Game News</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="header-container">
+
+        <a href="index.html" class="logo">
+            NEXT <span>GAME</span> NEWS
+        </a>
+
+        <button class="menu-button" id="menuButton">
+            ☰
+        </button>
+
+        <nav class="main-nav" id="mainNav">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="esports.html">Esports</a>
+            <a href="#">PC</a>
+            <a href="#">Console</a>
+            <a href="#">Mobile</a>
+            <a href="live.html">🔴 Live</a>
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <div class="container">
+
+        <section class="section">
+
+            <h1>
+                🔎 Cari Berita Gaming
+            </h1>
+
+            <br>
+
+            <form class="search-box" id="searchForm">
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Contoh: GTA 6, PUBG, Mobile Legends..."
+                    autocomplete="off"
+                >
+
+                <button type="submit">
+                    Cari
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <section class="section">
+
+            <div class="section-title">
+
+                <h2 id="searchTitle">
+                    Berita Terbaru
+                </h2>
+
+            </div>
+
+
+            <div id="searchResults" class="news-grid">
+
+                <!-- Hasil pencarian akan muncul di sini -->
+
+            </div>
+
+        </section>
+
+    </div>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="container">
+
+        <div class="footer-logo">
+            NEXT GAME NEWS
+        </div>
+
+        <p>
+            Berita gaming terbaru, esports,
+            PC, console dan mobile.
+        </p>
+
+        <p class="copyright">
+            © 2026 Next Game News
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="js/app.js"></script>
+<script src="js/search.js"></script>
+
+</body>
+</html>
