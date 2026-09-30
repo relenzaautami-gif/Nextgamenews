@@ -1,0 +1,74 @@
+/* =========================
+   LIVE PLAYER
+========================= */
+
+.live-player {
+    width: 100%;
+}
+
+.player-screen {
+    position: relative;
+
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    background:
+        radial-gradient(
+            circle at center,
+            #20283d,
+            #070a10 70%
+        );
+
+    border: 1px solid var(--border);
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+.player-message {
+    text-align: center;
+
+    padding: 30px;
+}
+
+.player-icon {
+    width: 70px;
+    height: 70px;
+
+    margin: 0 auto 20px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    background: var(--accent);
+
+    font-size: 25px;
+}
+
+.player-message h2 {
+    margin-bottom: 8px;
+}
+
+.player-message p {
+    color: var(--muted);
+
+    margin-bottom: 10px;
+}
+
+.player-message span {
+    font-size: 12px;
+
+    color: #72e6a7;
+}
