@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: Update news
+      - name: Collect news
         run: |
         node scripts/news-collector.js
   
